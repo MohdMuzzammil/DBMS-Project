@@ -131,7 +131,7 @@ tr{
                             </a>
                         </li>
                         <li>
-                            <a href="AdminLogout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout
+                            <a href="Logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout
                                 
                                 
                             </a>
