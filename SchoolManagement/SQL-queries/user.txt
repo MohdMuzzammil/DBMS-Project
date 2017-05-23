@@ -1,0 +1,6 @@
+create table user(
+	username varchar(50) primary key,
+	password varchar(255) not null,
+	student_id int(11),
+	foreign key(student_id) references student(student_id)
+	);

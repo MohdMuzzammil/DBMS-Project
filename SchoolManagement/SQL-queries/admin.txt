@@ -1,0 +1,4 @@
+create table admin(
+	user varchar(50) primary key,
+	password char(255) not null
+);

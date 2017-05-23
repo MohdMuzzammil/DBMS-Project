@@ -1,0 +1,8 @@
+create table request_table(
+	student_id int(11) not null,
+	request_date date not null,
+	subject varchar(100) not null,
+	letter varchar(250) not null,
+	primary key(student_id,request_date),
+	foreign key(student_id) references student(student_id) on delete cascade
+	);

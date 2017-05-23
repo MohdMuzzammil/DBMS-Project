@@ -1,0 +1,11 @@
+create table parent(
+	parent_id int(11) auto_increment primary key,
+	f_name varchar(50) not null,
+	m_name varchar(50) not null,
+	address varchar(250) not null,
+	mob_no char(10) not null,
+	income int(11) not null,
+	f_occup varchar(20) not null,
+	m_occup varchar(20) not null,
+	foreign key(parent_id) references student(student_id) on delete cascade
+	);

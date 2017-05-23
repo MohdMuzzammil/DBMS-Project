@@ -1,0 +1,6 @@
+create table subject(
+	class int(11) not null,
+	subject varchar(20) not null,
+	faculty_id int(11),
+	primary key(class,subject)
+	);

@@ -1,0 +1,10 @@
+create table attendance(
+	student_id int(11) primary key,
+	English int(11) not null,
+	Hindi int(11) not null,
+	Kannada int(11) not null,
+	GS int(11) not null,
+	SS int(11) not null,
+	Math int(11) not null,
+	foreign key(student_id) references student(student_id) on delete cascade
+	);

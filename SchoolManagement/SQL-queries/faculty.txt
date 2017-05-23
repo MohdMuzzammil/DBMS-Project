@@ -1,0 +1,14 @@
+create table faculty(
+	faculty_id int(11) auto_increment primary key,
+	faculty_name varchar(50) not null,
+	faculty_dob date not null,
+	faculty_nation varchar(20) not null,
+	faculty_qual varchar(20) not null,
+	faculty_gender char(1) not null,
+	faculty_mob_no char(10) not null,
+	faculty_email varchar(60) not null,
+	faculty_address varchar(250) not null,
+	faculty_aadhaar char(12) not null,
+	faculty_salary int(11) not null,
+	faculty_designation varchar(20) not null
+	);
