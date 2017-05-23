@@ -1,0 +1,103 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav, .jumbotron h1{
+	font-family: 'Arvo', courier, serif;
+}
+ul.nav{
+	font-size: 15px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url(../images/background.jpg);
+	color: black;
+}
+
+.jumbotron h1
+{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+
+.jumbotron p{
+
+	margin-bottom: 30px; 
+	font-weight: lighter;
+	padding: 0 50px;
+}
+
+ 
+.btn-lg{
+	font-size: 36px;
+
+}
+
+.logo a{
+	
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    font-family: 'Arvo', courier, serif;
+    font-size: 30px;
+}
+
+
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+
+	font-family: 'Arvo', courier, serif;
+	font-size: 15px;
+	color: #9d9d9d;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: inherit;
+      
+    border: none;
+    outline: none;
+   line-height: 20px;
+
+   
+    
+    
+    
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: black;
+   
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	font-family: 'Arvo', courier, serif;
+    float: none;
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
